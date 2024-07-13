@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font: size 80px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+body {
+    /* background-color: rgba(58, 38, 62, 0.619); */
+    background-image: url(4920930_2550318.jpg);
+    background-size: cover ;
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    /* border: solid red; */
+
+    margin-top: 60px;
+    /* margin-left: 650px; */
+     
+    height: 400px;
+    width: 330px;
+    margin-bottom: 200px;
+    padding: 60px;
+    border-radius: 42px;
+    background: linear-gradient(144deg, #af40ff, #644ef7 50%, #00ddeb);
+    box-shadow: 0px 0px 40px #1e16bc,
+        -0px -0px 40px #1114a7;
+        
+}
+     /* animation-name: movement;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;   */
+
+    /* }
+button {
+
+    background-color: rgb(235, 12, 186);
+    font-weight: bold;
+    box-sizing: 50px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 40px;
+    width: 180px;
+    font-size: x-large;
+    font-family: 'Times New Roman' ;
+    transition: all 0.2s;
+    -webkit-animation-timing-function: 2s;
+} */
+
+input {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    margin-bottom: 1%;
+
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    color: rgb(4, 18, 98);
+
+}
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+        -webkit-text-fill-color: #FFFFFF;
+    /* color: rgb(218, 97, 16); */
+    border: 1px solid rgb(8, 8, 7);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+    margin-left: 60px;
+    box-shadow: 3px 2px 15px ;
+    margin-top: 45px;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    /* background-color: rgb(214, 50, 38); */
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 4;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1;
+    box-shadow: 15px 15px 15px rgba(68, 7, 250, 0.4);
+    -webkit-text-fill-color: black;
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+  
+  
