@@ -61,7 +61,9 @@ input {
     width: 90%;
     height: 30px;
     border-radius: 5px;
-    border-style: none;
+    /* border-style: none; */
+    border: 1px solid black;
+
 
 }
 
